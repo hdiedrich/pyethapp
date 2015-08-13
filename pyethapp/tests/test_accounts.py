@@ -1,6 +1,6 @@
 import json
 from uuid import uuid4
-from ethereum.keys import privtoaddr
+from ethereum.utils import privtoaddr
 from ethereum.transactions import Transaction
 from pyethapp.accounts import Account
 import pytest
